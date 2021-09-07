@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+/* Général */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'MonteCarlo', cursive;
+}
+p{
+    font-size: 1.5rem;
+    /*  1rem = 16 pixel
+        2 rem = ... 32 px
+    */
+}
+/* Section */
+section{
+    display: flex;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    /* vH = view Height */
+    /* vW = view Width */
+}
+#section-div-violette{
+    /*  v1 : en haut à gauche
+        v2 : en haut à droite
+        v3 : en bas à droite
+        v4 : en bas à gauche 
+    */
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 40px 180px 30px 20px;
+}
+#section-div-violette h1{
+    font-size: 78px;
+}
+#section-div-violette-p{
+    margin-top: 30px;
+    margin-left: 150px;
+    line-height: 1.8;
+}
